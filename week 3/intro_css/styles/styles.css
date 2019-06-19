@@ -3,3 +3,27 @@
     height: 400px;
     background-color:burlywood;
 }
+
+#header{
+    width:700px;
+    height:100px;
+    background-color: aquamarine;
+    }
+
+#main{
+    width:500px;
+    height:200px;
+    border-bottom-style: double;
+    background-color: brown;
+}
+
+#footer{
+    width:auto;
+    height:400px;
+    background-color: crimson;
+    border-bottom-color: antiquewhite;
+    border-style:dotted;
+    border-width: medium;
+    
+    
+}
