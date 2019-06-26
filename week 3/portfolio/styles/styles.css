@@ -35,6 +35,7 @@ width:700px;
     margin-right: auto;
     background-color: azure;
     
+    
         }
 
 footer{
@@ -44,13 +45,29 @@ footer{
         margin:0 auto;
     background-color: beige;
    
-}
-p{ font-size: 30px;
+}i{border:solid red 2px;}
+
+p, li, a{ font-size: 30px;
 font-family: cursive;
 color: dimgray;}
-a{
-    font-family: fantasy;
-    font-size: 36px;
+/*text style ends*/
+/*image style start*/
+
+
+/*image styles*/
+#intro-image{
+    
+    text-align: center;
+    
+}
+/*grab all images within this image*/
+#intro-image img{
+    width:500px;
+    
+}
+/* anchor pseudoclasses*/
+
+a{color:pink;
   
 }
 a:link{
@@ -64,4 +81,11 @@ a:hover{
 }
 a:active{
     color:yellow;
+}
+
+/*image styles*/
+#intro-image{
+    width:500px;
+    margin: 0 auto;
+    te
 }

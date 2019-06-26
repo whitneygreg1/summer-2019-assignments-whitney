@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>css practice</title>
+ <!--css internal style sheet-->
+    <style>
+        .card{width: 320px;
+              height: 445px;
+        border: 1px black solid;
+        border-radius: 20px;
+        position:absolute;}
+        
+        .card > p {
+            font-family: "arial", "sans-serif";
+            font-size: 48px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-inline-start: 0;
+            margin-inline-end: 0;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+        #first { position:absolute;
+        left: 10px;
+        top: 10px;
+        background-color: beige;}
+        #second {
+            left: 80px;
+            top: 80px;
+            background-color: cyan;
+        }
+        
+        #third {
+            top: 150px;
+            left: 150px;
+            background-color: pink;
+        }
+        
+    </style>
+    
+    
+     </head>
+    
+   <body>     
+    <p>This is a poker hand.</p>
+       <div id="hand">
+       <div class="card" id="first">
+           <p>A</p>
+           </div>
+       <div class="card" id="second">
+           <p>A</p>
+           </div>
+       <div class="card" id="third">
+           <p>k</p>
+           </div>
+       <div class="card" id="fourth">
+           <p>k</p>
+           </div>
+       <div class="card" id="fifth">
+           <p>9</p>
+           </div>
+       </div>
+       
+</body>
+    
+    
+</html>
